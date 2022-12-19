@@ -1,0 +1,41 @@
+.Title {
+  box-sizing: border-box;
+  width: 100%;
+  padding: .75em;
+  height: 7rem;
+  background-color: #25405f;
+  position: fixed;
+  display: flex;
+  top:0;
+}
+
+.header-left{
+  display: flex; 
+  padding-right: 25%;
+  padding-left: 40px; 
+  width: 60%;
+}
+
+#show{
+  display: contents;
+}
+
+#hide{
+  display: none; 
+}
+
+
+.total{
+  font-family: 'Paragraph';
+  font-size: 20px;
+  color: #6eb4dc;
+  margin-left: 15px;
+  font-weight: bold;
+  margin-top: 2rem;
+  display: flex; 
+  width: 40%;
+}
+
+.h1{
+ justify-content: left;
+}
